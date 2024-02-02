@@ -13,5 +13,5 @@ int main()
     a = a * b;
     b = a / b;
     a = a / b;
-    cout << a << " and " << b << endl;
+    cout << "A is " << a << " and B is " << b << endl;
 }
