@@ -4,11 +4,20 @@ using namespace std;
 
 int main()
 {
-    int base;
+    int num;
     cout << "Enter a number and i can find the factorial! Tell me a number: ";
-    cin >> base;
-    for(int i = 1; i < base + 1; i++)
+    cin >> num;
+    int fact = 1;
+    if(num == 1)
     {
-        cout << i * base << endl;
+        cout << "Thats just a one!" << endl;
+    }
+    else
+    {
+        for(int i = 1; i <= num; i++)
+        {
+            fact = fact * i;
+        }
+        cout << fact << endl;
     }
 }
