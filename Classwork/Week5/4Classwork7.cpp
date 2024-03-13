@@ -20,6 +20,7 @@ int main()
        else
        {
         cout << "You did it, you get nothing" << endl;
+        break;
        }
     }
 }

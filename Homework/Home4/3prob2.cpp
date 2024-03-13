@@ -6,7 +6,7 @@ int main()
 {
     int sum = 0;
     int number;
-    cout << "Hello! I can tell you the 6 numbers you input and display the absolute value or all of them combine! Tell me a number: ";
+    cout << "Hello! I can tell you the 6 numbers you input and display the absolute value of all of them combine! Tell me a number: ";
     cin >> number;
     if(number < 0)
     {
