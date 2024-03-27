@@ -7,12 +7,10 @@ int main()
     string word;
     cout << "Please input a word: ";
     cin >> word;
+    string revWord;
     for(int i = 0; i <= word.length(); i++)
     {
-        if(word[i] == occurence)
-        {
-            
-        }
+        revWord = word[i] + revWord;
     }
-    cout << "The word you chose is now " << word << endl;
+    cout << "The word you chose is now " << revWord << endl;
 }
